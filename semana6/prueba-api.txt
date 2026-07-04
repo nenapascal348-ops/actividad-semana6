@@ -1,0 +1,17 @@
+Prueba de API para la ruta POST /registro
+
+Solicitud enviada:
+{
+  "nombre": "Maria",
+  "mensaje": "Hola comunidad"
+}
+
+Respuesta esperada del servidor:
+{
+  "estado": "Datos recibidos",
+  "nombre": "Maria",
+  "mensaje": "Hola comunidad"
+}
+
+Explicación:
+El servidor recibe los datos enviados en el cuerpo JSON de la petición POST y responde con un objeto JSON que confirma la recepción de la información.
